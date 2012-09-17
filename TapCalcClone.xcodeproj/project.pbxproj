@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE00DB231607D2FE009CA480 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00DB221607D2FE009CA480 /* UIKit.framework */; };
+		EE00DB251607D2FE009CA480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00DB241607D2FE009CA480 /* Foundation.framework */; };
+		EE00DB271607D2FE009CA480 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00DB261607D2FE009CA480 /* CoreGraphics.framework */; };
+		EE00DB2D1607D2FE009CA480 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE00DB2B1607D2FE009CA480 /* InfoPlist.strings */; };
+		EE00DB2F1607D2FE009CA480 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00DB2E1607D2FE009CA480 /* main.m */; };
+		EE00DB331607D2FE009CA480 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00DB321607D2FE009CA480 /* AppDelegate.m */; };
+		EE00DB361607D2FE009CA480 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00DB351607D2FE009CA480 /* ViewController.m */; };
+		EE00DB391607D2FE009CA480 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE00DB371607D2FE009CA480 /* ViewController.xib */; };
+		EE00DB411607D2FE009CA480 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00DB401607D2FE009CA480 /* SenTestingKit.framework */; };
+		EE00DB421607D2FE009CA480 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00DB221607D2FE009CA480 /* UIKit.framework */; };
+		EE00DB431607D2FE009CA480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00DB241607D2FE009CA480 /* Foundation.framework */; };
+		EE00DB4B1607D2FE009CA480 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE00DB491607D2FE009CA480 /* InfoPlist.strings */; };
+		EE00DB4E1607D2FE009CA480 /* TapCalcCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00DB4D1607D2FE009CA480 /* TapCalcCloneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE00DB441607D2FE009CA480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE00DB151607D2FE009CA480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE00DB1D1607D2FE009CA480;
+			remoteInfo = TapCalcClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE00DB1E1607D2FE009CA480 /* TapCalcClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapCalcClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE00DB221607D2FE009CA480 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE00DB241607D2FE009CA480 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE00DB261607D2FE009CA480 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE00DB2A1607D2FE009CA480 /* TapCalcClone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapCalcClone-Info.plist"; sourceTree = "<group>"; };
+		EE00DB2C1607D2FE009CA480 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE00DB2E1607D2FE009CA480 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE00DB301607D2FE009CA480 /* TapCalcClone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapCalcClone-Prefix.pch"; sourceTree = "<group>"; };
+		EE00DB311607D2FE009CA480 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE00DB321607D2FE009CA480 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE00DB341607D2FE009CA480 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE00DB351607D2FE009CA480 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE00DB381607D2FE009CA480 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EE00DB3F1607D2FE009CA480 /* TapCalcCloneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapCalcCloneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE00DB401607D2FE009CA480 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE00DB481607D2FE009CA480 /* TapCalcCloneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapCalcCloneTests-Info.plist"; sourceTree = "<group>"; };
+		EE00DB4A1607D2FE009CA480 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE00DB4C1607D2FE009CA480 /* TapCalcCloneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapCalcCloneTests.h; sourceTree = "<group>"; };
+		EE00DB4D1607D2FE009CA480 /* TapCalcCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapCalcCloneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE00DB1B1607D2FE009CA480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE00DB231607D2FE009CA480 /* UIKit.framework in Frameworks */,
+				EE00DB251607D2FE009CA480 /* Foundation.framework in Frameworks */,
+				EE00DB271607D2FE009CA480 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE00DB3B1607D2FE009CA480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE00DB411607D2FE009CA480 /* SenTestingKit.framework in Frameworks */,
+				EE00DB421607D2FE009CA480 /* UIKit.framework in Frameworks */,
+				EE00DB431607D2FE009CA480 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE00DB131607D2FE009CA480 = {
+			isa = PBXGroup;
+			children = (
+				EE00DB281607D2FE009CA480 /* TapCalcClone */,
+				EE00DB461607D2FE009CA480 /* TapCalcCloneTests */,
+				EE00DB211607D2FE009CA480 /* Frameworks */,
+				EE00DB1F1607D2FE009CA480 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE00DB1F1607D2FE009CA480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE00DB1E1607D2FE009CA480 /* TapCalcClone.app */,
+				EE00DB3F1607D2FE009CA480 /* TapCalcCloneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE00DB211607D2FE009CA480 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE00DB221607D2FE009CA480 /* UIKit.framework */,
+				EE00DB241607D2FE009CA480 /* Foundation.framework */,
+				EE00DB261607D2FE009CA480 /* CoreGraphics.framework */,
+				EE00DB401607D2FE009CA480 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE00DB281607D2FE009CA480 /* TapCalcClone */ = {
+			isa = PBXGroup;
+			children = (
+				EE00DB311607D2FE009CA480 /* AppDelegate.h */,
+				EE00DB321607D2FE009CA480 /* AppDelegate.m */,
+				EE00DB341607D2FE009CA480 /* ViewController.h */,
+				EE00DB351607D2FE009CA480 /* ViewController.m */,
+				EE00DB371607D2FE009CA480 /* ViewController.xib */,
+				EE00DB291607D2FE009CA480 /* Supporting Files */,
+			);
+			path = TapCalcClone;
+			sourceTree = "<group>";
+		};
+		EE00DB291607D2FE009CA480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE00DB2A1607D2FE009CA480 /* TapCalcClone-Info.plist */,
+				EE00DB2B1607D2FE009CA480 /* InfoPlist.strings */,
+				EE00DB2E1607D2FE009CA480 /* main.m */,
+				EE00DB301607D2FE009CA480 /* TapCalcClone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE00DB461607D2FE009CA480 /* TapCalcCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE00DB4C1607D2FE009CA480 /* TapCalcCloneTests.h */,
+				EE00DB4D1607D2FE009CA480 /* TapCalcCloneTests.m */,
+				EE00DB471607D2FE009CA480 /* Supporting Files */,
+			);
+			path = TapCalcCloneTests;
+			sourceTree = "<group>";
+		};
+		EE00DB471607D2FE009CA480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE00DB481607D2FE009CA480 /* TapCalcCloneTests-Info.plist */,
+				EE00DB491607D2FE009CA480 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE00DB1D1607D2FE009CA480 /* TapCalcClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE00DB511607D2FE009CA480 /* Build configuration list for PBXNativeTarget "TapCalcClone" */;
+			buildPhases = (
+				EE00DB1A1607D2FE009CA480 /* Sources */,
+				EE00DB1B1607D2FE009CA480 /* Frameworks */,
+				EE00DB1C1607D2FE009CA480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapCalcClone;
+			productName = TapCalcClone;
+			productReference = EE00DB1E1607D2FE009CA480 /* TapCalcClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE00DB3E1607D2FE009CA480 /* TapCalcCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE00DB541607D2FE009CA480 /* Build configuration list for PBXNativeTarget "TapCalcCloneTests" */;
+			buildPhases = (
+				EE00DB3A1607D2FE009CA480 /* Sources */,
+				EE00DB3B1607D2FE009CA480 /* Frameworks */,
+				EE00DB3C1607D2FE009CA480 /* Resources */,
+				EE00DB3D1607D2FE009CA480 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE00DB451607D2FE009CA480 /* PBXTargetDependency */,
+			);
+			name = TapCalcCloneTests;
+			productName = TapCalcCloneTests;
+			productReference = EE00DB3F1607D2FE009CA480 /* TapCalcCloneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE00DB151607D2FE009CA480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ignazio Calò";
+			};
+			buildConfigurationList = EE00DB181607D2FE009CA480 /* Build configuration list for PBXProject "TapCalcClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE00DB131607D2FE009CA480;
+			productRefGroup = EE00DB1F1607D2FE009CA480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE00DB1D1607D2FE009CA480 /* TapCalcClone */,
+				EE00DB3E1607D2FE009CA480 /* TapCalcCloneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE00DB1C1607D2FE009CA480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE00DB2D1607D2FE009CA480 /* InfoPlist.strings in Resources */,
+				EE00DB391607D2FE009CA480 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE00DB3C1607D2FE009CA480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE00DB4B1607D2FE009CA480 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE00DB3D1607D2FE009CA480 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE00DB1A1607D2FE009CA480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE00DB2F1607D2FE009CA480 /* main.m in Sources */,
+				EE00DB331607D2FE009CA480 /* AppDelegate.m in Sources */,
+				EE00DB361607D2FE009CA480 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE00DB3A1607D2FE009CA480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE00DB4E1607D2FE009CA480 /* TapCalcCloneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE00DB451607D2FE009CA480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE00DB1D1607D2FE009CA480 /* TapCalcClone */;
+			targetProxy = EE00DB441607D2FE009CA480 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE00DB2B1607D2FE009CA480 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE00DB2C1607D2FE009CA480 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE00DB371607D2FE009CA480 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE00DB381607D2FE009CA480 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		EE00DB491607D2FE009CA480 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE00DB4A1607D2FE009CA480 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE00DB4F1607D2FE009CA480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE00DB501607D2FE009CA480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE00DB521607D2FE009CA480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapCalcClone/TapCalcClone-Prefix.pch";
+				INFOPLIST_FILE = "TapCalcClone/TapCalcClone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE00DB531607D2FE009CA480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapCalcClone/TapCalcClone-Prefix.pch";
+				INFOPLIST_FILE = "TapCalcClone/TapCalcClone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE00DB551607D2FE009CA480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapCalcClone.app/TapCalcClone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapCalcClone/TapCalcClone-Prefix.pch";
+				INFOPLIST_FILE = "TapCalcCloneTests/TapCalcCloneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EE00DB561607D2FE009CA480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapCalcClone.app/TapCalcClone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapCalcClone/TapCalcClone-Prefix.pch";
+				INFOPLIST_FILE = "TapCalcCloneTests/TapCalcCloneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE00DB181607D2FE009CA480 /* Build configuration list for PBXProject "TapCalcClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE00DB4F1607D2FE009CA480 /* Debug */,
+				EE00DB501607D2FE009CA480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE00DB511607D2FE009CA480 /* Build configuration list for PBXNativeTarget "TapCalcClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE00DB521607D2FE009CA480 /* Debug */,
+				EE00DB531607D2FE009CA480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE00DB541607D2FE009CA480 /* Build configuration list for PBXNativeTarget "TapCalcCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE00DB551607D2FE009CA480 /* Debug */,
+				EE00DB561607D2FE009CA480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE00DB151607D2FE009CA480 /* Project object */;
+}
