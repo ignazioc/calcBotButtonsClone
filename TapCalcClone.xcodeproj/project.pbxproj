@@ -20,6 +20,8 @@
 		EE00DB431607D2FE009CA480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00DB241607D2FE009CA480 /* Foundation.framework */; };
 		EE00DB4B1607D2FE009CA480 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE00DB491607D2FE009CA480 /* InfoPlist.strings */; };
 		EE00DB4E1607D2FE009CA480 /* TapCalcCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00DB4D1607D2FE009CA480 /* TapCalcCloneTests.m */; };
+		EE00DB581607D320009CA480 /* screenshot_01_large.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EE00DB571607D320009CA480 /* screenshot_01_large.jpeg */; };
+		EE00DB5B1607D3C0009CA480 /* TapCalcButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00DB5A1607D3C0009CA480 /* TapCalcButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		EE00DB4A1607D2FE009CA480 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE00DB4C1607D2FE009CA480 /* TapCalcCloneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapCalcCloneTests.h; sourceTree = "<group>"; };
 		EE00DB4D1607D2FE009CA480 /* TapCalcCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapCalcCloneTests.m; sourceTree = "<group>"; };
+		EE00DB571607D320009CA480 /* screenshot_01_large.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screenshot_01_large.jpeg; sourceTree = "<group>"; };
+		EE00DB591607D3C0009CA480 /* TapCalcButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapCalcButton.h; sourceTree = "<group>"; };
+		EE00DB5A1607D3C0009CA480 /* TapCalcButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapCalcButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,7 @@
 		EE00DB281607D2FE009CA480 /* TapCalcClone */ = {
 			isa = PBXGroup;
 			children = (
+				EE00DB571607D320009CA480 /* screenshot_01_large.jpeg */,
 				EE00DB311607D2FE009CA480 /* AppDelegate.h */,
 				EE00DB321607D2FE009CA480 /* AppDelegate.m */,
 				EE00DB341607D2FE009CA480 /* ViewController.h */,
@@ -125,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				EE00DB2A1607D2FE009CA480 /* TapCalcClone-Info.plist */,
+				EE00DB591607D3C0009CA480 /* TapCalcButton.h */,
+				EE00DB5A1607D3C0009CA480 /* TapCalcButton.m */,
 				EE00DB2B1607D2FE009CA480 /* InfoPlist.strings */,
 				EE00DB2E1607D2FE009CA480 /* main.m */,
 				EE00DB301607D2FE009CA480 /* TapCalcClone-Prefix.pch */,
@@ -224,6 +232,7 @@
 			files = (
 				EE00DB2D1607D2FE009CA480 /* InfoPlist.strings in Resources */,
 				EE00DB391607D2FE009CA480 /* ViewController.xib in Resources */,
+				EE00DB581607D320009CA480 /* screenshot_01_large.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 				EE00DB2F1607D2FE009CA480 /* main.m in Sources */,
 				EE00DB331607D2FE009CA480 /* AppDelegate.m in Sources */,
 				EE00DB361607D2FE009CA480 /* ViewController.m in Sources */,
+				EE00DB5B1607D3C0009CA480 /* TapCalcButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TapCalcButton.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	TapCalcButton *btn = [[TapCalcButton alloc]initWithFrame:CGRectMake(120, 243, 68, 46)];
+    [self.view addSubview:btn];
 }
 
 - (void)viewDidUnload
