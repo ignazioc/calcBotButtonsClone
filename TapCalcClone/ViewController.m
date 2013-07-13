@@ -17,8 +17,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	TapCalcButton *btn = [[TapCalcButton alloc]initWithFrame:CGRectMake(120, 243, 68, 46)];
+	TapCalcButton *btn = [[TapCalcButton alloc]initWithFrame:CGRectMake(220, 243, 68, 46)];
     [self.view addSubview:btn];
+    
+    UILabel *l  = [[UILabel alloc] initWithFrame:CGRectMake(180, 150, 120, 60)];
+    [l setNumberOfLines:0];
+    [l setTextAlignment:NSTextAlignmentCenter];
+    [l setFont:[UIFont systemFontOfSize:16]];
+    [l setBackgroundColor:[UIColor clearColor]];
+    [l setTextColor:[UIColor whiteColor]];
+    [l setText:@"This is my clone creates with coregraphic"];
+    
+    [self.view addSubview:l];
 }
 
 - (void)viewDidUnload
